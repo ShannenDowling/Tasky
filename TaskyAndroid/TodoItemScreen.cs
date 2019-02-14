@@ -68,7 +68,7 @@ namespace TaskyAndroid.Screens
 		{
 			if (task.ID != 0) {
 				TodoItemManager.DeleteTask(task.ID);
-			} #test
+			} 
 			Finish();
 		}
     }

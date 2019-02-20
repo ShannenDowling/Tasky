@@ -54,7 +54,10 @@ namespace TaskyAndroid.Screens
 					StartActivity (taskDetails);
 				};
 			}
-		}
+
+            //App Center start up code
+            AppCenter.Start("f827555e-ae5c-4739-8322-e495b0120849", typeof(Analytics), typeof(Crashes));
+        }
 		
 		protected override void OnResume ()
 		{

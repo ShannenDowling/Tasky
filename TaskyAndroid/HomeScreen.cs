@@ -7,6 +7,9 @@ using Tasky.Shared;
 using TaskyAndroid;
 using TaskyAndroid.ApplicationLayer;
 using Android.Content.PM;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace TaskyAndroid.Screens 
 {

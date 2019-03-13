@@ -49,12 +49,6 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TaskyAndroid\TaskyAndroid.csproj">
-      <Project>{82f04c1e-2f0d-4396-adc3-bc9eadee8e7e}</Project>
-      <Name>TaskyAndroid</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

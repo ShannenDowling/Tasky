@@ -48,7 +48,6 @@ namespace TaskyUITests
             Assert.That(true);
         }
 
-
         [Test]
         public void EnterTextExample()
         {
@@ -60,7 +59,6 @@ namespace TaskyUITests
             app.Screenshot("Text entered");
             app.Back();
         }
-
 
         // https://github.com/King-of-Spades/AppCenter-Test-Samples/blob/master/Xamarin.UITest/UITestDemo/UITestDemo.UITest
         [Test]

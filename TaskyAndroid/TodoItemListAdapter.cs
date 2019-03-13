@@ -67,8 +67,6 @@ namespace TaskyAndroid.ApplicationLayer
             
 			//Finally return the view
 			return view;
-
-            //Comment added to test build
 		}
 	}
 }

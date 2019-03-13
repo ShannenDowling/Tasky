@@ -48,6 +48,20 @@ namespace TaskyUITests
             Assert.That(true);
         }
 
+
+        [Test]
+        public void EnterTextExample()
+        {
+            app.Tap(x => x.Marked("Add Task"));
+            app.Tap(x => x.Text("Item name"));
+
+            app.Screenshot("Before calling EnterText");
+            app.EnterText("The test worked!");
+            app.Screenshot("Text entered");
+            app.Back();
+        }
+
+
         // https://github.com/King-of-Spades/AppCenter-Test-Samples/blob/master/Xamarin.UITest/UITestDemo/UITestDemo.UITest
         [Test]
         public void ClearTextExample()

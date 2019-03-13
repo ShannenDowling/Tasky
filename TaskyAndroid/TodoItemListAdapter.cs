@@ -64,9 +64,11 @@ namespace TaskyAndroid.ApplicationLayer
 			view.SetText (item.Name==""?"<new task>":item.Name, TextView.BufferType.Normal);
 			view.Checked = item.Done;
 
-
+            
 			//Finally return the view
 			return view;
+
+            //Comment added to test build
 		}
 	}
 }

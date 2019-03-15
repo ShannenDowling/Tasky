@@ -35,6 +35,7 @@
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="Xamarin.UITest, Version=2.2.7.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.UITest.2.2.7\lib\net45\Xamarin.UITest.dll</HintPath>
     </Reference>
